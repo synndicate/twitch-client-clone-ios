@@ -11,7 +11,9 @@ import SwiftUI
 enum Constants {
     
     enum URLs {
-        static let sampleStream = URL(string: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")!
+        static let sampleStream1 = URL(string: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")!
+        static let sampleStream2 = URL(string: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4")!
+        static let sampleStream3 = URL(string: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4")!
     }
     
     enum UI {

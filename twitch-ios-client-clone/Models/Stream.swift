@@ -9,5 +9,5 @@ import Foundation
 
 struct Stream: Identifiable {
     let id: String
-    let name: String
+    let title: String
 }

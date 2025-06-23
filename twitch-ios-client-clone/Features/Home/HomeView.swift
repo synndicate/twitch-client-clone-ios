@@ -13,7 +13,9 @@ struct HomeView: View {
     var body: some View {
         NavigationView(content: {
             List(viewModel.streams) { s in
-                StreamCardView(stream: s)
+                NavigationLink(destination: StreamDetailView(stream: s)) {
+                    StreamCardView(stream: s)
+                }
             }
         }).navigationTitle("Live Streams")
     }

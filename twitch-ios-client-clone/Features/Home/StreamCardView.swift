@@ -15,7 +15,7 @@ struct StreamCardView: View {
             Image(systemName: "video")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text(stream.name)
+            Text(stream.title)
                 .font(.headline)
                 .lineLimit(1)
             Text("id: \(stream.id)")

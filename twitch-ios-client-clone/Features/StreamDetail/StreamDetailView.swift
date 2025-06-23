@@ -14,7 +14,7 @@ struct StreamDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading) {
-                StreamPlayerView()
+                StreamPlayerView(stream: stream)
 
                 VStack(alignment: .leading, spacing: 8) {
                     Text(stream.title)

@@ -10,4 +10,5 @@ import Foundation
 struct Stream: Identifiable {
     let id: String
     let title: String
+    let url: URL
 }

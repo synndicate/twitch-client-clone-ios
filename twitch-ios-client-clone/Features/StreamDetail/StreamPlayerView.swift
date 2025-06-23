@@ -9,9 +9,14 @@ import SwiftUI
 import AVKit
 
 struct StreamPlayerView: View {
-    private let player = AVPlayer(url: Constants.URLs.sampleStream)
+    private let stream: Stream
+    private var player: AVPlayer { AVPlayer(url: stream.url) }
     
     @State private var isPresentingFullscreen = false
+    
+    init(stream: Stream) {
+        self.stream = stream
+    }
     
     var body: some View {
         ZStack {

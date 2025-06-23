@@ -14,8 +14,7 @@ protocol StreamServiceProtocol {
 class MockStreamService: StreamServiceProtocol {
     func fetchStreams(completion: @escaping ([Stream]) -> Void) {
         let streams = [
-            Stream(id: "001", title: "Speedrun Sunday"),
-            Stream(id: "002", title: "Lo-Fi Chill")
+            Stream(id: "001", title: "Big Buck Bunny", url: Constants.URLs.sampleStream)
         ]
         completion(streams)
     }

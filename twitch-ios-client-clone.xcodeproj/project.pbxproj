@@ -19,6 +19,7 @@
 		BFEBFBAC2E09E52B0087C40A /* StreamDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBFBAB2E09E52B0087C40A /* StreamDetailViewModel.swift */; };
 		BFEBFBAE2E09E5360087C40A /* StreamPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBFBAD2E09E5360087C40A /* StreamPlayerView.swift */; };
 		BFEBFBB62E09EEDB0087C40A /* FullScreenPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBFBB52E09EEDB0087C40A /* FullScreenPlayerView.swift */; };
+		BFEBFBB82E09F40D0087C40A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBFBB72E09F40D0087C40A /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BFEBFBAB2E09E52B0087C40A /* StreamDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamDetailViewModel.swift; sourceTree = "<group>"; };
 		BFEBFBAD2E09E5360087C40A /* StreamPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamPlayerView.swift; sourceTree = "<group>"; };
 		BFEBFBB52E09EEDB0087C40A /* FullScreenPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenPlayerView.swift; sourceTree = "<group>"; };
+		BFEBFBB72E09F40D0087C40A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		BF8C25882E09DD73005F9955 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				BFEBFBB72E09F40D0087C40A /* Constants.swift */,
 				BFEBFBB02E09E7410087C40A /* SharedViews */,
 				BFEBFBA82E09E5090087C40A /* StreamDetail */,
 				BF8C258C2E09DDC7005F9955 /* Home */,
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF8C257C2E09D2F8005F9955 /* HomeView.swift in Sources */,
+				BFEBFBB82E09F40D0087C40A /* Constants.swift in Sources */,
 				BFEBFBAC2E09E52B0087C40A /* StreamDetailViewModel.swift in Sources */,
 				BFEBFBB62E09EEDB0087C40A /* FullScreenPlayerView.swift in Sources */,
 				BFEBFBA42E09E0030087C40A /* StreamService.swift in Sources */,

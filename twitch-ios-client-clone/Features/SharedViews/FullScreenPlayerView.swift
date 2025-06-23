@@ -28,11 +28,11 @@ struct FullscreenPlayerView: View {
                 Button {
                     dismiss()
                 } label: {
-                    Image(systemName: "xmark.circle.fill")
+                    Image(systemName: Constants.Icons.close)
                         .font(.system(size: 32))
                         .padding()
-                        .foregroundColor(.white)
-                        .background(Color.black.opacity(0.5).clipShape(Circle()))
+                        .foregroundColor(Constants.UI.controlOverlayForeground)
+                        .background(Constants.UI.controlOverlayBackground)
                 }
                 .transition(.opacity)
                 .animation(.easeInOut, value: showCloseButton)
@@ -47,7 +47,7 @@ struct FullscreenPlayerView: View {
     }
 
     private func scheduleButtonHide() {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + Constants.UI.controlAutoHideDelay) {
             withAnimation {
                 showCloseButton = false
             }

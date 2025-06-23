@@ -9,14 +9,14 @@ import SwiftUI
 import AVKit
 
 struct StreamPlayerView: View {
-    private let player = AVPlayer(url: URL(string: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4")!)
+    private let player = AVPlayer(url: Constants.URLs.sampleStream)
     
     @State private var isPresentingFullscreen = false
     
     var body: some View {
         ZStack {
             VideoPlayer(player: player)
-                .frame(height: 240)
+                .frame(height: Constants.UI.playerHeight)
                 .onAppear { player.play() }
                 .onDisappear { player.pause() }
             
@@ -25,11 +25,11 @@ struct StreamPlayerView: View {
                     Button {
                         isPresentingFullscreen = true
                     } label: {
-                        Image(systemName: "arrow.up.left.and.arrow.down.right")
-                            .padding(10)
-                            .background(Color.black.opacity(0.6))
+                        Image(systemName: Constants.Icons.fullscreen)
+                            .padding(Constants.UI.controlButtonPadding)
+                            .background(Constants.UI.controlOverlayBackground)
                             .clipShape(Circle())
-                            .foregroundColor(.white)
+                            .foregroundColor(Constants.UI.controlOverlayForeground)
                     }
                     .padding()
                     Spacer()

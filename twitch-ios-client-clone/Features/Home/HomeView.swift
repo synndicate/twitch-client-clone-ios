@@ -8,14 +8,14 @@
 import SwiftUI
 
 struct HomeView: View {
+    @StateObject var viewModel = HomeViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationView(content: {
+            List(viewModel.streams) { s in
+                StreamCardView(stream: s)
+            }
+        }).navigationTitle("Live Streams")
     }
 }
 

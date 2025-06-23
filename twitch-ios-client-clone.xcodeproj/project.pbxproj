@@ -11,6 +11,10 @@
 		BF8C257C2E09D2F8005F9955 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C257B2E09D2F8005F9955 /* HomeView.swift */; };
 		BF8C257E2E09D2FC005F9955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8C257D2E09D2FC005F9955 /* Assets.xcassets */; };
 		BF8C25812E09D2FC005F9955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8C25802E09D2FC005F9955 /* Preview Assets.xcassets */; };
+		BFEBFBA02E09DF340087C40A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBFB9F2E09DF340087C40A /* HomeViewModel.swift */; };
+		BFEBFBA22E09DF870087C40A /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBFBA12E09DF870087C40A /* Stream.swift */; };
+		BFEBFBA42E09E0030087C40A /* StreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBFBA32E09E0030087C40A /* StreamService.swift */; };
+		BFEBFBA62E09E1430087C40A /* StreamCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBFBA52E09E1430087C40A /* StreamCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BF8C257B2E09D2F8005F9955 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BF8C257D2E09D2FC005F9955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8C25802E09D2FC005F9955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BFEBFB9F2E09DF340087C40A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BFEBFBA12E09DF870087C40A /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
+		BFEBFBA32E09E0030087C40A /* StreamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamService.swift; sourceTree = "<group>"; };
+		BFEBFBA52E09E1430087C40A /* StreamCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +88,7 @@
 		BF8C25892E09DD7E005F9955 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BFEBFBA12E09DF870087C40A /* Stream.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -87,6 +96,7 @@
 		BF8C258A2E09DD86005F9955 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				BFEBFBA32E09E0030087C40A /* StreamService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -103,6 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				BF8C257B2E09D2F8005F9955 /* HomeView.swift */,
+				BFEBFB9F2E09DF340087C40A /* HomeViewModel.swift */,
+				BFEBFBA52E09E1430087C40A /* StreamCardView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -178,7 +190,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF8C257C2E09D2F8005F9955 /* HomeView.swift in Sources */,
+				BFEBFBA42E09E0030087C40A /* StreamService.swift in Sources */,
+				BFEBFBA02E09DF340087C40A /* HomeViewModel.swift in Sources */,
 				BF8C257A2E09D2F8005F9955 /* AppMain.swift in Sources */,
+				BFEBFBA62E09E1430087C40A /* StreamCardView.swift in Sources */,
+				BFEBFBA22E09DF870087C40A /* Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

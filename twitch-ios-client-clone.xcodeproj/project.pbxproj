@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF8C257A2E09D2F8005F9955 /* twitch_ios_client_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C25792E09D2F8005F9955 /* twitch_ios_client_cloneApp.swift */; };
+		BF8C257A2E09D2F8005F9955 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C25792E09D2F8005F9955 /* AppMain.swift */; };
 		BF8C257C2E09D2F8005F9955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8C257B2E09D2F8005F9955 /* ContentView.swift */; };
 		BF8C257E2E09D2FC005F9955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8C257D2E09D2FC005F9955 /* Assets.xcassets */; };
 		BF8C25812E09D2FC005F9955 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF8C25802E09D2FC005F9955 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		BF8C25762E09D2F8005F9955 /* twitch-ios-client-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "twitch-ios-client-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF8C25792E09D2F8005F9955 /* twitch_ios_client_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twitch_ios_client_cloneApp.swift; sourceTree = "<group>"; };
+		BF8C25792E09D2F8005F9955 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		BF8C257B2E09D2F8005F9955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BF8C257D2E09D2FC005F9955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF8C25802E09D2FC005F9955 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		BF8C25782E09D2F8005F9955 /* twitch-ios-client-clone */ = {
 			isa = PBXGroup;
 			children = (
-				BF8C25792E09D2F8005F9955 /* twitch_ios_client_cloneApp.swift */,
+				BF8C25792E09D2F8005F9955 /* AppMain.swift */,
 				BF8C257B2E09D2F8005F9955 /* ContentView.swift */,
 				BF8C257D2E09D2FC005F9955 /* Assets.xcassets */,
 				BF8C257F2E09D2FC005F9955 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF8C257C2E09D2F8005F9955 /* ContentView.swift in Sources */,
-				BF8C257A2E09D2F8005F9955 /* twitch_ios_client_cloneApp.swift in Sources */,
+				BF8C257A2E09D2F8005F9955 /* AppMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
